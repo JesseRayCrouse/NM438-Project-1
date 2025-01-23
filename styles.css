@@ -55,6 +55,26 @@ margin: 20px;
 min-width: 200px;
 }
 
+
+.metaphoricalButtons {
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 30px;
+    max-width: 100vw;
+}
+.metaphoricalButtons a:any-link{
+    background-color: crimson;
+    font-size: 48px;
+    color: white;
+    padding: 200px;
+    
+}
+
+.metaphoricalButtons a:hover{
+    background-color: maroon;
+    color: gray;
+}
+
 .videoPlayer{
     position: absolute;
     top: 0;
@@ -82,4 +102,18 @@ p {
     font-size: 72px;
     text-align: center;
     margin-top: 55%;
+}
+
+footer {
+    min-height: 100px;
+    min-width: 100vw;
+    background-color: black;
+}
+
+.weirdfooter {
+    margin-top: 280px;
+}
+
+.weirderfooter {
+    margin-top: 550px;
 }
