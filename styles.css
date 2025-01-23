@@ -1,0 +1,9 @@
+body {
+    background-image: url(sourceimages/cardboardTexture.svg);
+    background-size: auto;
+}
+
+p {
+    font-size: 48px;
+    font-family: '';
+}
