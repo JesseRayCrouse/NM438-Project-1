@@ -42,61 +42,74 @@ a:any-link {
 .mammals {
     background-color: #ff4747;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 
 }
 
 .mammals:hover{
     background-color: #ff1414;
     background-position: cover;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .amphibians {
     background-color: #f26536;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .amphibians:hover{
     background-color: #E7440D;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .reptiles {
     background-color: #F8C630;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .reptiles:hover{
     background-color: #ebb30a;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .fish {
     background-color: #649A47;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .fish:hover{
     background-color: #4f7a38;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .critters {
     background-color: #1B5299;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .critters:hover{
     background-color: #133a6c;
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 .games {
     background-color: #AB00F5;
     background-size: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .games:hover {
     background-color: #6d009c;
     background-size: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 .helpbutton1 {
     background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
@@ -105,9 +118,78 @@ a:any-link {
     box-shadow: 0 4px 2px -2px #000;
 }  
 
+.helpbutton2 {
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-color: #ff4747;
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}  
+
+.helpbutton3 {
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-color: #f26536;
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}  
+
+.helpbutton4 {
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-color: #649A47;
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+    
+}  
+
+.helpbutton5 {
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-color: #1B5299;
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}  
+
+.helpbutton6 {
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-color: #AB00F5;
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+} 
+
 .helpbutton1:hover {
     background-color: #ebb30a;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
     background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}
+
+.helpbutton2:hover {
+    background-color: #ff1414;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}
+.helpbutton3:hover {
+    background-color: #E7440D;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}
+.helpbutton4:hover {
+    background-color: #4f7a38;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}
+.helpbutton5:hover {
+    background-color: #133a6c;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
+}
+.helpbutton6:hover {
+    background-color: #6d009c;
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
+    background-position: cover;
+    box-shadow: 0 4px 2px -2px #000;
 }
 #activePage1 {
     background-color: #6d009c;
@@ -123,6 +205,22 @@ a:any-link {
     background-color: #ff1414;
     background-position: cover;
 }
+
+#activePage4 {
+    background-color: #E7440D;
+    background-position: cover;
+}
+
+#activePage5 {
+    background-color: #ebb30a;
+    background-position: cover;
+}
+
+#activePage6 {
+    background-color: #4f7a38;
+    background-position: cover;
+}
+
 .directory {
     position: absolute;
     display: flex;
@@ -151,7 +249,7 @@ a:any-link {
     padding-left: 30px;
 }
 
-.helpbutton1 {
+.helpbutton1, .helpbutton2, .helpbutton3, .helpbutton4, .helpbutton5, .helpbutton6 {
 font-family: tanyasmarkerfont, 'Oswald';
 float: right;
 margin: 20px;
@@ -161,10 +259,50 @@ margin-right: 30px;
 text-align: center;
 }
 
-.second-background {
+.second-background-1 {
     width: 100vw;
     height: 100px;
 background-color: #6d009c;
+background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+box-shadow: -10px 1px 10px #000;
+}
+
+.second-background-2 {
+    width: 100vw;
+    height: 100px;
+background-color: #ff1414;
+background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+box-shadow: -10px 1px 10px #000;
+}
+
+.second-background-3 {
+    width: 100vw;
+    height: 100px;
+background-color: #E7440D;
+background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+box-shadow: -10px 1px 10px #000;
+}
+
+.second-background-4 {
+    width: 100vw;
+    height: 100px;
+background-color: #ebb30a;
+background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+box-shadow: -10px 1px 10px #000;
+}
+
+.second-background-5 {
+    width: 100vw;
+    height: 100px;
+background-color: #4f7a38;
+background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+box-shadow: -10px 1px 10px #000;
+}
+
+.second-background-6 {
+    width: 100vw;
+    height: 100px;
+background-color: #133a6c;
 background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
 box-shadow: -10px 1px 10px #000;
 }
@@ -215,21 +353,22 @@ grid-template-rows: 100%;
 column-gap: 70px;
 }
 .metaphoricalButtons a:any-link{
-    background-color: crimson;
+    background-color: #ff4747;
     font-size: 50px;
     font-family: tanyasmarkerfont, 'Oswald';
+    background-image: url("https://www.transparenttextures.com/patterns/stitched-wool.png");
     text-align: center;
-    color: white;
+    color: #FFF;
     padding: 100px;
     margin-left: 120px;
     margin-right: 30px;
     margin-bottom: 100px;
-    text-shadow: none;
+    box-shadow: 0 4px 2px -2px #000;
 }
 
 .metaphoricalButtons a:hover{
-    background-color: maroon;
-    color: gray;
+    background-color: #ff1414;
+    color: #e7e7e7;
 }
 
 .createacreature {
