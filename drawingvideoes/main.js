@@ -25,6 +25,7 @@ function changePage4() {
 function mouseDragged(){
     const color = document.querySelector("#color").value;
     fill(color);
+    stroke(color);
     const size = document.querySelector("#size").value;
     circle(mouseX, mouseY, size);
     const outlineWidth = document.querySelector("#color").value;
