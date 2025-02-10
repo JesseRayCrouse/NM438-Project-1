@@ -602,6 +602,18 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    .second-background-1 {
+        width: 100vw;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 20% 55% 25%;
+        grid-template-rows: 100%;
+    background-color: #9087C0;
+    background-image: url("https://transparenttextures.com/patterns/scribble-light.png");
+    box-shadow: -10px 1px 10px #000;
+    }
+
     .directory {
     position: absolute;
     display: flex;
@@ -614,12 +626,12 @@ footer {
 }
 
 .directory a {
-    margin-right: 70px;
-    min-width: 140px;
+    margin-right: 60px;
+    min-width: 160px;
     margin-top: -30px;
     text-align: center;
     align-content: center;
-    font-size: 32px;
+    font-size: 28px;
 }
     
 .card-container {
@@ -666,7 +678,8 @@ footer {
     font-family: tanyasmarkerfont, 'Oswald';
     float: right;
     margin: 20px;
-    min-width: 250px;
+    max-width: 200px;
+    margin-right: -20px;
     padding: 200px;
     text-align: center;
     }
